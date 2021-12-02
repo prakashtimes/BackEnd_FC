@@ -1,0 +1,32 @@
+{
+  "name": "backend_fc",
+  "version": "1.0.0",
+  "description": "Food Challenge",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prakashtimes/BackEnd_FC.git"
+  },
+  "keywords": [
+    "Hackathon",
+    "code_breaker"
+  ],
+  "author": "Code Breaker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prakashtimes/BackEnd_FC/issues"
+  },
+  "homepage": "https://github.com/prakashtimes/BackEnd_FC#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.13.0",
+    "mongoose": "^6.0.14"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
