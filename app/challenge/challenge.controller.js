@@ -11,6 +11,7 @@ challengeController.add = async (req, res) => {
     if (result) {
       res.status(201).send(result);
     }
+    res.status(404).send();
   } catch (err) {
     return res.status(500).send();
   }
