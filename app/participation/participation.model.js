@@ -14,8 +14,9 @@ const participationSchema = new Schema(
             required : true
         },
         challengeCompletionStatus : {
-            type : String,
-            required : true
+            type : Boolean,
+            required : true,
+            default : false
         },
         comments : {
             type : String,

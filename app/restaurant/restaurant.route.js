@@ -8,7 +8,7 @@ const validate = require("../../util/validator");
 
 router.post(
   "/",
-  //restaurantAddValidationRules(),
+  restaurantAddValidationRules(),
   validate,
   restaurantController.add
 );

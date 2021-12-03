@@ -8,7 +8,7 @@ const validate = require("../../util/validator");
 
 router.post(
   "/",
-  //customerAddValidationRules(),
+  customerAddValidationRules(),
   validate,
   customerController.add
 );

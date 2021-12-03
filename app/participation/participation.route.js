@@ -8,7 +8,7 @@ const validate = require("../../util/validator");
 
 router.post(
   "/",
-  //participationAddValidationRules(),
+  participationAddValidationRules(),
   validate,
   participationController.add
 );
